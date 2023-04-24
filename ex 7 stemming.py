@@ -11,3 +11,10 @@ for word in words:
     nltk_stems.append(stem)
 print("NLTK Stemming:", nltk_stems)
 
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+for i in words:
+    doc = nlp(i)
+print(i, ":", doc[0].lemma_)
+

@@ -17,8 +17,8 @@ concatenated = first_word + last_word
 print(concatenated) # Georgelogician
 
 #for i in range (len(words)):
-#    if i%2 == 0:
-#        print(words[i], end= ',')
+   # if i%2 == 0:
+     # print(words[i], end= ',')
 
 print(sentence[-4:])
 

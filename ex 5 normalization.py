@@ -1,4 +1,4 @@
-# Define a sentence
+
 sentence = "Dr. Brown is a PhD in Physics."
 
 # Normalize the sentence by replacing upp
