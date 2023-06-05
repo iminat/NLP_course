@@ -1,0 +1,20 @@
+<employees>
+    <employee>
+        <id>1</id>
+        <name>John Doe</name>
+        <position>Manager</position>
+        <department>Sales</department>
+    </employee>
+    <employee>
+        <id>2</id>
+        <name>Jane Smith</name>
+        <position>Engineer</position>
+        <department>Engineering</department>
+    </employee>
+    <employee>
+        <id>3</id>
+        <name>Mike Johnson</name>
+        <position>Analyst</position>
+        <department>Finance</department>
+    </employee>
+</employees>

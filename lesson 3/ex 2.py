@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the dataset
-categories = ['sci.med', 'comp.graphics', 'rec.autos']  # Choose your desired categories
+categories = ['sci.med', 'comp.graphics', 'rec.autos']  # Choose desired categories
 newsgroups = fetch_20newsgroups(subset='all', categories=categories)
 
 # Preprocess the text data and create document vectors
