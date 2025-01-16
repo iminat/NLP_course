@@ -18,7 +18,7 @@ with open('result_december.txt', 'r', encoding='utf-8') as file:
 # Функция для очистки данных
 def clean_data(data):
     # Список имен, которые нужно исключить
-    excluded_senders = {"Егор Шиповников", "Яна Труш", "Юля", "Иминат", "Юля ⛅️", "Alina Ivashkina",
+    excluded_senders = {"Егор Шиповников", "Яна Труш", "Иминат", "Юля ⛅️", "Alina Ivashkina",
                         "Анастасия Колотова"}
 
     cleaned = []
